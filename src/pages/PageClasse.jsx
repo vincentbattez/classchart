@@ -8,11 +8,10 @@ import Table from '../components/Table'
 export default class PageClasse extends Component {
 
   render() {   
-
     return (
       <div className="container-fluid">
         {/* Title */}
-        <TitlePage breadcrumb={[]} title="Classe 2nd 3" />
+        <TitlePage breadcrumb={[]} title={`Classe de ${this.props.match.params.section} ${this.props.match.params.groupe}`} />
 
         <div className="row">
           {/* Top 10 */}

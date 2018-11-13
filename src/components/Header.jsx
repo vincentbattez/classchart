@@ -5,7 +5,7 @@ export default function Header() {
     <header className="topbar">
       <nav className="navbar top-navbar navbar-toggleable-sm navbar-light">
         <div className="navbar-header">
-          <a className="navbar-brand" href="index.html">
+          <a href="/" className="navbar-brand">
             <b>
               <img src="../assets/images/logo-icon.png" alt="homepage" className="dark-logo" />
             </b>
@@ -13,6 +13,7 @@ export default function Header() {
               <img src="../assets/images/logo-text.png" alt="homepage" className="dark-logo" />
             </span>
           </a>
+
         </div>
         <div className="navbar-collapse">
           <ul className="navbar-nav mr-auto mt-md-0 ">
