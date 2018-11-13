@@ -14,11 +14,30 @@
     <link href="css/colors/blue.css" id="theme" rel="stylesheet">
     
     <title>React App</title>
+
+    <style>
+      .recharts-wrapper {
+        margin-left: -80px;
+      }
+      .custom-select {
+        position: absolute;
+        top: 1.25rem;
+        right: 1.25rem;
+      }
+      tr.active {
+        font-weight: 500;
+      }
+    </style>
   </head>
   <body class="fix-header fix-sidebar card-no-border">
     <noscript>
       You need to enable JavaScript to run this app.
     </noscript>
     <div id="root"></div>
+
+    <script src="https://unpkg.com/react/umd/react.production.min.js"></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.production.min.js"></script>
+    <script src="https://unpkg.com/prop-types/prop-types.min.js"></script>
+    <script src="https://unpkg.com/recharts/umd/Recharts.min.js"></script>
   </body>
 </html>

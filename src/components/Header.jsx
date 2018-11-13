@@ -28,8 +28,7 @@ export default function Header() {
           <ul className="navbar-nav my-lg-0">
             <li className="nav-item dropdown">
               <a className="nav-link dropdown-toggle text-muted waves-effect waves-dark" href="/" data-toggle="dropdown"
-                aria-haspopup="true" aria-expanded="false"><img src="../assets/images/users/1.jpg" alt="user" className="profile-pic m-r-5" />Markarn
-                Doe</a>
+                aria-haspopup="true" aria-expanded="false"><img src="../assets/images/users/1.jpg" alt="user" className="profile-pic m-r-5" />Vincent Battez</a>
             </li>
           </ul>
         </div>

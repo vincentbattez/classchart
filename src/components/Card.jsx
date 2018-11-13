@@ -4,7 +4,7 @@ export default function Card(props) {
   // const progressBarCSS = {width: props.progressBarWidth+'%', height: '6px'}
 
   return (
-    <div className={"col-sm-"+props.size}>
+    <div className="col-sm">
       <div className="card">
         <div className="card-block">
           <h4 className="card-title">{props.title}</h4>
